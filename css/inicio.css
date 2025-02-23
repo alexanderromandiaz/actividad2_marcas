@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    /* Hace que la imagen cubra toda el área del fondo */
+    background-position: center;
+    /* Centra la imagen */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    background-position: center;
+    /* Centra la imagen */
+    height: 100vh;
+    /* Asegura que el fondo cubra toda la altura de la ventana */
+}
+
+@font-face {
+    font-family: "BreakingBad";
+    /* Nombre con el que referenciarás la fuente */
+    src: url("../assets/Breaking\ Bad.ttf") format("truetype");
+    /* Ruta al archivo .ttf */
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+p {
+    font-family: "BreakingBad", sans-serif;
+    /* Aplica la fuente */
+    color: white;
+    font: Arial;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.poster {
+    width: 700px;
+    height: 300px;
+    border: 10px outset brown;
+    border-radius: 22px;
+
+}
